@@ -66,7 +66,7 @@ body{
 }
 .left img{
     
-    width: 80px;
+    width: 5rem;
 
 }
 .left div{
@@ -138,28 +138,7 @@ body{
 
 
 
-.leftt {
-width: 33%;
-height: 100%;
-float:left;
-background:red;
-color: white;
-text-align: center;
-letter-spacing: 0.4rem;
-}
-.leftt p{
-color: white;
-text-align: center;
-}
-.rightt{
-width: 33%;
-height: 100%;
-float:left;
-background:green;
-color: white;
-text-align: center;
-letter-spacing: 0.4rem;
-}
+
 .middle{
 width:34%;
 height: 100%;
@@ -433,24 +412,40 @@ text-align: center;
 
 @media (max-width: 600px){ /*for smartphones */
     .mid{
-        width: 70%;
+        width: 90%;
     
         }
         .navbar li{
-            width: 5rem;
+            width: 4rem;
+            font-size: 1rem;
         }
         .btn{
             padding: 0.1rem;
             margin: .1rem;
             width: 4rem;
         }
+        .container{
+            font-size: 0.7rem;
+
+        }
 
 
-        .container {
-           
-            width: 10rem;
-            margin-left: 4rem;
-            
+      .form-group{
+        height: fit-content;
+          width: 0.9rem;
+      }
+    .left{
+        
+    }
+      .left img{
+    
+        width: 3rem;
+    
+    
+    }
+    .left div{
+        font-size: 0.6rem;
+    }
 }
 
 @media (max-width:480px){ /*for smarthohines/portrate/ */
