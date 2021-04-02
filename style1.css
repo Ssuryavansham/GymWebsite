@@ -6,6 +6,7 @@ body{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width:inherit;
     
     color: white;
     overflow: block;
@@ -28,7 +29,7 @@ body{
   
   
   width: 38%;
-  margin: 10px auto;
+  margin: 1rem auto;
  
 
  
@@ -38,25 +39,26 @@ body{
 
 .right{
   position: absolute;
-  right: 22px;
-  top: 21px;
+  right: 2.2rem;
+  top: 3.1rem;
  
 
 
 }
 .navbar{
     display: inline-block;
+    position: absolute;
 }
 
 .navbar li{
     display: inline-block;
-    font-size: 24px;
+    font-size: 1.5rem;
     
 }
 .navbar li a {
     color: white;
     text-decoration:none;
-    padding: 2px 25px;
+    padding: 0.2rem 2.5rem;
 }
 .navbar li a:hover,   .navbar li a.active {
     text-decoration: underline;
@@ -69,15 +71,15 @@ body{
 }
 .left div{
     
-    line-height: 20px;
-    font-size: 15px;
+    line-height: 2rem;
+    font-size: 1rem;
     text-align: center
     
 }
 .btn{
   
     font-family: 'baloo Bhai';
-    margin: 0px 9px;
+    margin: 0rem 0.9rem;
     background-color: black;
     color:white;
     padding: 4px 14px;
@@ -86,48 +88,55 @@ body{
 }
 .container{
    
-    padding: 140px 24px;
-    margin:48px 991px;
-    width: 20%;
-    border-radius: 25px;
+    
+    margin-right: 10rem;
+    width: 14rem;
+    border-radius: 2.5rem;
+    
+    
+    position: absolute;
+  right: -8rem;
+  top: 10.1rem;
+  padding-left: 1rem;
+ 
     
    
 }
 .form-group input{
     text-align: center;
     display: block;
-    width: 232px;
-    padding: 5px;
-    border: 2px solid yellow;
-    margin: 10px;
+    width: 12.1rem;
+    padding: .2rem .2rem;
+    border: 0.2rem solid yellow;
+    margin: 1rem;
+   
+    background-size: cover;
+    
+
+    
 }
+
+
+
 .container h2{
     text-align: center;
 }
 
 .ss{
    text-align: center;
-   font-size: 18px;
-   margin: 13px;
-   border: 2px solid yellow;
+   font-size: 1rem;
+   margin: 1.3rem;
+   border: 0.2rem solid yellow;
    background-color: white;
    color: black;
    padding: 5px;
-   width: 214px;;
+   width: 12.1rem;
+   margin-left: 1rem;
 
 } 
-.footer {
-padding: 0px 0px;
-
-left: 0;
-top:55px;
-bottom: 0;
-width: 100%;
-height: 200px;
-background-color:white;
 
 
-}
+
 
 .leftt {
 width: 33%;
@@ -136,7 +145,7 @@ float:left;
 background:red;
 color: white;
 text-align: center;
-letter-spacing: 4px;
+letter-spacing: 0.4rem;
 }
 .leftt p{
 color: white;
@@ -149,7 +158,7 @@ float:left;
 background:green;
 color: white;
 text-align: center;
-letter-spacing: 4px;
+letter-spacing: 0.4rem;
 }
 .middle{
 width:34%;
@@ -157,7 +166,7 @@ height: 100%;
 float:left;
 background:rgb(57, 70, 190);
 text-align: center;
-letter-spacing: 4px;
+letter-spacing: 0.4rem;
 
 }
 .rightt p{
@@ -173,51 +182,51 @@ text-align: center;
    color:white;
    background-color: thistle;
    width:420px;
-   height: 200px;
-   margin: 10px;
+   height: 20rem;
+   margin: 1rem;
    background: url('image/bg5.jpg');
-   background-size: contain;
-   border-radius:20px;
+   background-size: cover;
+   border-radius:2rem;
 }
 .box2{
     display: inline-block;
     color:white;
     background-color: greenyellow;
-    width:420px;
-    height: 200px;
+    width:26rem;
+    height: 20rem;
     position:left;
-    margin: 10px;
+    margin: 1rem;
     background: url('image/bg4.jpg');
-    background-size: contain;
-    border-radius:20px;
+    background-size: cover;
+    border-radius:2rem;
  }
  .box3{
      display: inline-block;
     color:white;
     background-color: red;
-    width:420px;
-    height: 200px;
+    width:24rem;
+    height: 20rem;
     position:left;
-    margin: 10px;
+    margin: 1rem;
     background: url('image/bg3.jpg');
-    background-size: contain;
-    border-radius:20px;
+    background-size: cover;
+    border-radius:2rem;
     
  }
  .boxmain{
      
      background-color: rgb(43, 41, 41);
      width: 100%;
-    
+    margin-top: 40rem;
  }
  
  .first{
     display: inline-block;
     background: url('image/bg6.png');
     background-size:100px;
-     width: 100px;
-     height: 100px;
-     margin-left: 200px;
+     width: 10rem;
+     height: 10rem;
+     margin-left: 20rem;
      
  }
  
@@ -227,19 +236,19 @@ text-align: center;
      
      background: url('image/bg7.png');
      background-size: contain;
-     width: 100px;
-     height: 100px;
-     margin-top:100px;
-     margin-left: 200px;
+     width: 10rem;
+     height: 10rem;
+     margin-top:10rem;
+     margin-left: 20rem;
   
  }
  .third{
     display: inline-block;
     background: url('image/bg8.png');
     background-size: contain;
-     width: 100px;
-     height: 100px;
-     margin-left: 200px;
+     width: 10rem;
+     height: 10rem;
+     margin-left: 20rem;
     
 
  }
@@ -247,64 +256,198 @@ text-align: center;
     display: inline-block;
     background: url('image/bg9.png');
     background-size: contain;
-     width: 100px;
-     height: 100px;
-     margin-left: 200px;
+     width: 10rem;
+     height: 10rem;
+     margin-left: 20rem;
 
  }
  .mainlogo{
      width: 100%;
-     height: 300px;
+     height: 30rem;
      background-color: rgb(245, 236, 228);
      
  }
  .first p{
      color: rgb(27, 11, 10);
-     padding-top: 90px;
+     padding-top: 9rem;
      font-family:inherit;
      
      
  }
  .sec p{
     color: rgb(27, 11, 10);
-    padding-top: 90px;
+    padding-top: 9rem;
     font-family:inherit;
     
 }
 .third p{
     color: rgb(27, 11, 10);
-     padding-top: 90px;
+     padding-top: 9rem;
      font-family:inherit;
      
 }
 .four p{
     color: rgb(27, 11, 10);
-     padding-top: 90px;
+     padding-top: 9rem;
      font-family:inherit;
      font-weight: 200;
      
 }
 #mew{
     background-color: blueviolet;
-    width: 100%;
-    height: 400px;
+    width: 10rem;
+    height: 40rem;
 
 }
 .text1{
     display: inline-block;
-    width: 600px;
-    height:400px;
+    width: 60rem;
+    height:40rem;
     background-color: darkkhaki;
     overflow: hidden;
 }
 .text2{
     display: inline-block;
-    width: 745px;
-    height: 400px;
+    width: 74.5rem;
+    height: 40rem;
     background-image: url(image/body1.jpg);
     background-size:cover;
     overflow: hidden;
     
     
     
+}
+
+
+
+
+@media (min-width: 1300px){ /*For dektop site*/
+
+        .mid{
+           width: 50%;
+        }
+}
+
+@media (max-width: 1300px){
+    .mid{
+    width: 70%;
+
+    }
+
+    .navbar li{
+        width: 10rem;
+    }
+
+    .right{
+        top:3rem;
+        right: 0rem;
+    
+       width: 20%;
+      
+      
+    }
+    .btn{
+        margin: .1rem;
+    }
+
+}
+
+
+@media (max-width: 1000px){ /*for tablet site*/
+    .mid{
+        width: 60%;
+    
+        }
+    
+    .navbar li{
+        width: 6rem;
+    }
+    .btn{
+        padding: 0.1rem;
+        margin: .1rem;
+        width: 4rem;
+    }
+    .boxmain{
+        width: 100%;
+    }
+    .first{
+        
+        background: url('image/bg6.png');
+        background-size:100px;
+         width: 5rem;
+         height: 5rem;
+         margin-left: 10rem;
+         
+     }
+     .sec{
+    
+         background: url('image/bg7.png');
+         background-size: contain;
+         width: 5rem;
+         height: 5rem;
+         margin-top:5rem;
+         margin-left: 5rem;
+      
+     }
+     .third{
+        
+        background: url('image/bg8.png');
+        background-size: contain;
+         width: 5rem;
+         height: 5rem;
+         margin-left: 5rem;
+        
+    
+     }
+     .four{
+        
+        background: url('image/bg9.png');
+        background-size: contain;
+         width: 5rem;
+         height: 5rem;
+         margin-left: 5rem;
+    
+     }
+
+   
+
+}
+
+@media (max-width: 800px){ /*for tablet/e-reader */
+    .mid{
+        width: 80%;
+        font-size: 2rem;
+    
+        }
+        .navbar li{
+            width: 6rem;
+        }
+        .btn{
+            padding: 0.1rem;
+            margin: .1rem;
+            width: 4rem;
+        }
+    
+
+}
+
+@media (max-width: 600px){ /*for smartphones */
+    .mid{
+        width: 100%;
+    
+        }
+        .navbar li{
+            width: 6rem;
+        }
+        .btn{
+            padding: 0.1rem;
+            margin: .1rem;
+            width: 4rem;
+        }
+
+}
+
+@media (max-width:480px){ /*for smarthohines/portrate/ */
+
+
 }
