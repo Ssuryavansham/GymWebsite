@@ -445,6 +445,12 @@ text-align: center;
             width: 4rem;
         }
 
+
+        .container {
+           
+            width: 10rem;
+            margin-left: 4rem;
+            
 }
 
 @media (max-width:480px){ /*for smarthohines/portrate/ */
