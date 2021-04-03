@@ -4,9 +4,10 @@ body{
     background: url('image/bg2.jpg');
     height: 100%;
     width: 100%;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-    max-width:inherit;
+    max-width:initial;
+    
     
     color: white;
     overflow: block;
@@ -104,7 +105,7 @@ body{
 }
 .form-group input{
     text-align: center;
-    display: block;
+    display:inherit;
     width: 12.1rem;
     padding: .2rem .2rem;
     border: 0.2rem solid yellow;
@@ -148,10 +149,7 @@ text-align: center;
 letter-spacing: 0.4rem;
 
 }
-.rightt p{
-color: white;
-text-align: center;
-}
+
 .middle p{
 color: white;
 text-align: center;
@@ -295,6 +293,29 @@ text-align: center;
     
     
     
+}
+#iconbar1{
+    position: absolute;
+    font-size: 2rem;
+    background: transparent;
+    opacity: 0;
+    visibility: hidden;
+    top:1rem;
+    right:1rem;
+    border-radius: 10px;
+    border-color:transparent;
+}
+#iconbar2{
+    font-size: 2rem;
+    background: transparent;
+    opacity: 0;
+    visibility: hidden;
+}
+#iconbar1:hover{
+    color: yellow;
+}
+#iconbar2:hover{
+color: cyan;
 }
 
 
@@ -449,6 +470,47 @@ text-align: center;
 }
 
 @media (max-width:480px){ /*for smarthohines/portrate/ */
+    .left img{
+    
+        width: 3rem;
+    
+    
+    }
+    .left div{
+        font-size: 0.6rem;
+    }
 
+    
+               .navbar li{
+            opacity: 0;
+            visibility: hidden;
+        }
+        .mid{
+            width: 40%;
+            font-size: 2rem;
+        
+            }
+
+           .right{
+              opacity: 0;
+              visibility: hidden;
+               
+           }
+          
+           
+            #iconbar1{
+                opacity: 1;
+                visibility: visible;
+                color:cyan;
+            }
+           .container{
+               position: absolute;
+               top:18.9rem;
+               color: black;
+           }
+           
+        body{
+            background-size: contain;
+        }
 
 }
