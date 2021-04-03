@@ -455,9 +455,7 @@ color: cyan;
         height: fit-content;
           width: 0.9rem;
       }
-    .left{
-        
-    }
+   
       .left img{
     
         width: 3rem;
@@ -471,11 +469,13 @@ color: cyan;
 
 @media (max-width:480px){ /*for smarthohines/portrate/ */
     .left img{
-    
+        
+        position: center;
         width: 3rem;
     
     
     }
+   
     .left div{
         font-size: 0.6rem;
     }
@@ -505,12 +505,46 @@ color: cyan;
             }
            .container{
                position: absolute;
-               top:18.9rem;
+               top:16.9rem;
+               left:8rem;
                color: black;
+           }
+           .ss{
+               width:11rem;
+               font-size: 0.9rem;
            }
            
         body{
             background-size: contain;
+            background-color: khaki;
         }
+        .text1{
+            width:24rem;
+            height: 10rem;
+        }
+        .text2{
+            width: 24rem;
+            height: 10rem;
+            
+        }
+        .mainlogo{
+            width: 23.5rem;
+        }
+        .box1{
+            width: 20.8rem;
+            height: 10rem;
+        }
+        .box2{
+            width: 20.8rem;
+            height: 10rem;
+        }
+        .box3{
+            width: 20.8rem;
+            height: 10rem;
+        }
+        #mew{
+            height: 20rem;
+        }
+        
 
 }
