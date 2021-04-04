@@ -785,11 +785,11 @@ color: cyan;
         }
         .box1{
         
-            width: 18rem;
+            width: 20rem;
         }
         .box2{
             
-            width:18rem ;
+            width:20rem ;
         }
        
 
@@ -808,7 +808,7 @@ color: cyan;
        
         #mew{
             width: 10rem;
-            height: 20rem;
+            height: 22.5rem;
             box-sizing: border-box;
         }
         .banner{
@@ -816,7 +816,7 @@ color: cyan;
             height: auto;
         }
         video{
-            width:20rem;
+            width:22.5rem;
         }
        
         .first{
