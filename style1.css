@@ -726,10 +726,13 @@ color: cyan;
           
            
             #iconbar1{
-                opacity: 1;
-                visibility: visible;
+               
+                position: absolute;
+                top:-4rem;
+                right: -3rem;
+                margin-left: -2rem;
                 color:cyan;
-                right: -1rem;
+                right: -15rem;
             }
            .container{
 
@@ -766,7 +769,7 @@ color: cyan;
         .mainlogo{
             position: absolute;
             top:57rem;
-            width:20rem;
+            width:22.5rem;
             height: 20rem;
             box-sizing: border-box;
         }
@@ -791,7 +794,14 @@ color: cyan;
             
             width:20rem ;
         }
-       
+       .box3{
+           opacity: 0;
+           visibility: hidden;
+       }
+       .text2{
+           opacity: 0;
+           visibility: hidden;
+       }
 
         .form-group{
             opacity: 0;
@@ -821,7 +831,7 @@ color: cyan;
        
         .first{
             position: absolute;
-            top:5rem;
+            top:6rem;
          width: 5rem;
          height: 5rem;
          background-size: cover;
@@ -844,7 +854,7 @@ color: cyan;
         .sec{
     
            position: absolute;
-           top:0rem;
+           top:1rem;
            left: 1rem;
             background-size: contain;
             width: 5rem;
@@ -922,12 +932,13 @@ color: cyan;
         }
         .text1{
             position: absolute;
-            top: 10rem;
+            top: 13rem;
+            margin-top: 1rem;
 
             display:flex;
             align-items: center;
             justify-content: center;
-            width: auto;
+            width: 22.5rem;
             
 
         }
@@ -953,14 +964,14 @@ color: cyan;
          }
          .padding{
             
-             margin-top: 26rem;
-             width: auto;
+             margin-top: 24rem;
+             width: 22.5rem;
              height: 10rem;
              background-color: rgb(236, 134, 202);
          }
          .fa{
-             margin-top: 6.5rem;
-             padding: 17px;
+             margin-top: 4rem;
+             padding: 19px;
              margin-left:1.5rem;
              
          }
