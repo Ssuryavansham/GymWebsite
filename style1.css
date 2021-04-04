@@ -766,7 +766,7 @@ color: cyan;
         .mainlogo{
             position: absolute;
             top:57rem;
-            width:12rem;
+            width:20rem;
             height: 20rem;
             box-sizing: border-box;
         }
@@ -784,8 +784,18 @@ color: cyan;
             margin-left: 0px;
         }
         .box1{
+        
             width: 18rem;
         }
+        .box2{
+            
+            width:18rem ;
+        }
+        .box3{
+            width: 18rem;
+
+        }
+
         .form-group{
             opacity: 0;
             visibility: hidden;
@@ -804,10 +814,17 @@ color: cyan;
             height: 20rem;
             box-sizing: border-box;
         }
+        .banner{
+            width:auto;
+            height: auto;
+        }
+        video{
+            width:20rem;
+        }
        
         .first{
             position: absolute;
-            top:82rem;
+            top:5rem;
          width: 5rem;
          height: 5rem;
          background-size: cover;
@@ -830,7 +847,8 @@ color: cyan;
         .sec{
     
            position: absolute;
-           top:77rem;
+           top:0rem;
+           left: 1rem;
             background-size: contain;
             width: 5rem;
             height: 5rem;
@@ -838,13 +856,22 @@ color: cyan;
            border-radius: 5rem;
             margin-left: 13rem;
         }
+        .sec p{
+    
+            color: rgb(27, 11, 10);
+            padding-top: 4rem;
+            font-family:inherit;
+            width: 6rem;
+            
+            margin-right: 2rem;
+        }
         
 
 
         .third{
            
             position: absolute;
-            top: 90rem;
+            top: 13rem;
            
             background-size: contain;
              width: 5rem;
@@ -865,12 +892,12 @@ color: cyan;
 
          .four{
             position: absolute;
-            top:90rem;
+            top:12.9rem;
             
             background-size: contain;
              width: 5rem;
              height: 5rem;
-             margin-left: 13rem;
+             margin-left: 13.9rem;
              background-color: lightpink;
              border-radius: 5rem;
     
@@ -878,10 +905,18 @@ color: cyan;
          
              
         }
-        .four p{
-            opacity: 0;
-            visibility: hidden;
-        }
+       .four p{
+           position: absolute;
+           right: -1.1rem;
+        opacity: 1;
+        visibility: visible;
+        color: black;
+        width: 7rem;
+        position: absolute;
+        top: -5rem;
+        
+       }
+        
              
     
            
@@ -889,6 +924,8 @@ color: cyan;
             color: black;
         }
         .text1{
+            position: absolute;
+            top: 10rem;
 
             display:flex;
             align-items: center;
@@ -898,7 +935,16 @@ color: cyan;
 
         }
         .text2{
-            width: auto;
+            
+            width: 2rem;
+            height: 2rem;
+        }
+        #mew{
+            position: absolute;
+            top: 38rem;
+            margin-top: 1rem;
+            width: 20rem;
+            height: 10rem;
         }
         .stat{
             color: blue;
