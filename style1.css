@@ -729,16 +729,12 @@ color: cyan;
                 opacity: 1;
                 visibility: visible;
                 color:cyan;
+                right: -1rem;
             }
            .container{
-               width: 15rem;
-               position: absolute;
-               top:16.9rem;
-               left:4rem;
-               margin-right: 1rem;
 
-               color: black;
-               box-sizing: border-box;
+               opacity: 0;
+              visibility: hidden;
             
            }
            .ss{
@@ -747,11 +743,14 @@ color: cyan;
            }
            
         body{
-            width: 19rem;
+            position: absolute;
+            width:auto;
            
-            height: auto;
-            background-size:contain;
-            background-color: khaki;
+            height:auto;
+            max-width:max-content;
+            background-size:inherit;
+            background-color: rgb(190, 222, 248);
+           
         
            
         }
@@ -765,31 +764,41 @@ color: cyan;
             
         }
         .mainlogo{
-            width:auto;
+            position: absolute;
+            top:57rem;
+            width:12rem;
             height: 20rem;
             box-sizing: border-box;
         }
         .boxmain{
-            width: auto;
+            position: absolute;
+            top:-25rem;
+            width:20rem;
+            max-width: 1200%;
+            background-color:yellow;
+            overflow: visible;
+            
+            padding: 0rem;
             height: auto;
+            overflow: hidden;
+            margin-left: 0px;
         }
         .box1{
-            width: auto;
-            height: 10rem;
-            margin-right:4rem;
+            width: 18rem;
         }
-        .box2{
-            width: auto;
-            height: 10rem;
+        .form-group{
+            opacity: 0;
+            visibility: hidden;
         }
-        .box3{
-            position: absolute;
-            right:auto;
-            width:min-content;
-            height: 10rem;
-            margin-top: 1rem;
+        .ss{
+            opacity: 0;
+            visibility:hidden;
         }
-
+        .btn{
+            opacity: 0;
+            visibility: hidden;
+        }
+       
         #mew{
             width: 10rem;
             height: 20rem;
