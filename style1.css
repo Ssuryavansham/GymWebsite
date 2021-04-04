@@ -3,7 +3,7 @@ body{
     padding: 0px;
     background: url('image/bg2.jpg');
     height: 100%;
-    width: 100%;
+    max-width: 500px;
     background-size:cover;
     background-repeat: no-repeat;
     max-width:initial;
@@ -349,7 +349,24 @@ color: cyan;
     .btn{
         margin: .1rem;
     }
-
+    body{
+        width: auto;
+    }
+    #mew{
+        width: auto;
+        height: auto;
+    }
+    .text1{
+        display: inline-block;
+        display: 10rem;
+        width: 35rem;
+        height: 25rem;
+    }
+    .text2{
+        display: inline-block;
+        width: 36.7rem;;
+        height: 25rem;
+    }
 }
 
 
@@ -465,6 +482,22 @@ color: cyan;
     .left div{
         font-size: 0.6rem;
     }
+    #mew{
+        width: auto;
+        height: auto;
+    }
+    .text1{
+        display: inline-block;
+       
+        width: 16rem;
+        height: 15rem;
+    }
+    .text2{
+        display: inline-block;
+        width: 18.5rem;
+        height: 15rem;
+        background-size: cover;
+    }
 }
 
 @media (max-width:480px){ /*for smarthohines/portrate/ */
@@ -476,21 +509,13 @@ color: cyan;
     
     }
    
-    .left div{
-        font-size: 0.6rem;
-    }
-
+   
     
                .navbar li{
             opacity: 0;
             visibility: hidden;
         }
-        .mid{
-            width: 40%;
-            font-size: 2rem;
         
-            }
-
            .right{
               opacity: 0;
               visibility: hidden;
@@ -507,10 +532,11 @@ color: cyan;
                width: 15rem;
                position: absolute;
                top:16.9rem;
-               left:7rem;
+               left:4rem;
                margin-right: 1rem;
 
                color: black;
+               box-sizing: border-box;
             
            }
            .ss{
@@ -519,8 +545,12 @@ color: cyan;
            }
            
         body{
-            background-size: contain;
+            width: 20rem;
+           
+            height: auto;
+            background-size:inherit;
             background-color: khaki;
+        
            
         }
         .text1{
@@ -533,24 +563,34 @@ color: cyan;
             
         }
         .mainlogo{
-            width: 23.5rem;
+            width:auto;
             height: 20rem;
+            box-sizing: border-box;
+        }
+        .boxmain{
+            width: auto;
+            height: auto;
         }
         .box1{
-            width: 20.8rem;
+            width: auto;
             height: 10rem;
         }
         .box2{
-            width: 20.8rem;
+            width: auto;
             height: 10rem;
         }
         .box3{
-            width: 20.8rem;
+            position: absolute;
+            right: 1rem;
+            width: 17rem;
             height: 10rem;
+            margin-top: 1rem;
         }
+
         #mew{
             width: 10rem;
             height: 20rem;
+            box-sizing: border-box;
         }
        
         .first{
@@ -584,17 +624,9 @@ color: cyan;
             height: 5rem;
            background-color: rgb(182, 245, 120);
            border-radius: 5rem;
-            margin-left: 17rem;
+            margin-left: 13rem;
         }
-        .sec p{
-            position: absolute;
-            right:-5rem;
-            color: rgb(27, 11, 10);
-            padding-top: 4rem;
-            font-family:inherit;
-            width: 10rem;
-            
-        }
+        
 
 
         .third{
@@ -626,7 +658,7 @@ color: cyan;
             background-size: contain;
              width: 5rem;
              height: 5rem;
-             margin-left: 17rem;
+             margin-left: 13rem;
              background-color: lightpink;
              border-radius: 5rem;
     
@@ -635,20 +667,34 @@ color: cyan;
              
         }
         .four p{
-            position: absolute;
-            right:-2rem;
-            color: rgb(27, 11, 10);
-             padding-top: 4rem;
-             font-family:inherit;
-             width: 8rem;
-            
-             font-size: 1rem;
-        
+            opacity: 0;
+            visibility: hidden;
+        }
              
     
-        }     
+           
         #mess{
             color: black;
         }
+        .text1{
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+            
+
+        }
+        .text2{
+            width: auto;
+        }
+        .stat{
+            color: blue;
+            font-size: 1rem;
+        }
+        html {
+           
+            background-size: contain;
+         }
 
 }
