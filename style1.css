@@ -702,7 +702,7 @@ color: cyan;
 
 
 
-@media (max-width:350px){ /*for smarthohines/portrate/ */
+@media (max-width:380px){ /*for smarthohines/portrate/ */
     .left img{
         
         position: center;
@@ -749,7 +749,7 @@ color: cyan;
             height:auto;
             max-width:max-content;
             background-size:inherit;
-            background-color: rgb(190, 222, 248);
+            background-color:white;
            
         
            
@@ -773,7 +773,7 @@ color: cyan;
         .boxmain{
             position: absolute;
             top:-25rem;
-            width:20rem;
+            width:22.5rem;
             max-width: 1200%;
             background-color:yellow;
             overflow: visible;
@@ -791,10 +791,7 @@ color: cyan;
             
             width:18rem ;
         }
-        .box3{
-            width: 18rem;
-
-        }
+       
 
         .form-group{
             opacity: 0;
@@ -954,5 +951,38 @@ color: cyan;
            
             background-size: contain;
          }
+         .padding{
+            
+             margin-top: 26rem;
+             width: auto;
+             height: 10rem;
+             background-color: rgb(236, 134, 202);
+         }
+         .fa{
+             margin-top: 6.5rem;
+             padding: 17px;
+             margin-left:1.5rem;
+             
+         }
+         .fa-facebook{
+             border-radius: 14rem;
+             background-color: cornflowerblue;
+             
+         }
+         .fa-twitter{
+             border-radius: 10rem;
+             background-color: cyan;
+         }
+         .fa-google{
+            border-radius: 10rem;
+            background-color: rgb(245, 69, 128);
+
+         }
+         .fa-instagram{
+            border-radius: 10rem;
+            background-color: rgb(247, 96, 27);
+
+         }
+
 
 }
